@@ -23,7 +23,7 @@ public class Acceso
         this.mes = Integer.parseInt(elementosAcceso[2]);
         this.dia = Integer.parseInt(elementosAcceso[3]);
         this.hora = Integer.parseInt(elementosAcceso[4]);
-        eliminarCorchete2 = elementosAcceso[5].substring(0,1);
+        eliminarCorchete2 = elementosAcceso[5].substring(0,2);
         this.minutos = Integer.parseInt(eliminarCorchete2);
         this.paginaWeb = elementosAcceso[6];
         this.codigoHTTP = Integer.parseInt(elementosAcceso[7]);
